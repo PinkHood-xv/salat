@@ -1,0 +1,134 @@
+[
+  {
+    "timestamp": "2024-10-24T14:23:15",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "protocol": "TCP",
+    "dst_port": 22,
+    "message": "Failed SSH login attempt",
+    "user": "admin"
+  },
+  {
+    "timestamp": "2024-10-24T14:23:45",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "protocol": "TCP",
+    "dst_port": 22,
+    "message": "Failed SSH login attempt",
+    "user": "root"
+  },
+  {
+    "timestamp": "2024-10-24T14:24:10",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "protocol": "TCP",
+    "dst_port": 22,
+    "message": "Failed SSH login attempt",
+    "user": "admin"
+  },
+  {
+    "timestamp": "2024-10-24T14:24:35",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "protocol": "TCP",
+    "dst_port": 22,
+    "message": "Failed SSH login attempt",
+    "user": "ubuntu"
+  },
+  {
+    "timestamp": "2024-10-24T14:25:00",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "protocol": "TCP",
+    "dst_port": 22,
+    "message": "Failed SSH login attempt",
+    "user": "test"
+  },
+  {
+    "timestamp": "2024-10-24T14:25:25",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "protocol": "TCP",
+    "dst_port": 22,
+    "message": "Failed SSH login attempt",
+    "user": "admin"
+  },
+  {
+    "timestamp": "2024-10-24T15:10:05",
+    "event_type": "connection",
+    "src_ip": "203.0.113.50",
+    "dst_ip": "10.0.0.10",
+    "protocol": "TCP",
+    "dst_port": 21,
+    "message": "Connection to FTP"
+  },
+  {
+    "timestamp": "2024-10-24T15:10:06",
+    "event_type": "connection",
+    "src_ip": "203.0.113.50",
+    "dst_ip": "10.0.0.10",
+    "protocol": "TCP",
+    "dst_port": 22,
+    "message": "Connection to SSH"
+  },
+  {
+    "timestamp": "2024-10-24T15:10:07",
+    "event_type": "connection",
+    "src_ip": "203.0.113.50",
+    "dst_ip": "10.0.0.10",
+    "protocol": "TCP",
+    "dst_port": 23,
+    "message": "Connection to Telnet"
+  },
+  {
+    "timestamp": "2024-10-24T15:10:08",
+    "event_type": "connection",
+    "src_ip": "203.0.113.50",
+    "dst_ip": "10.0.0.10",
+    "protocol": "TCP",
+    "dst_port": 80,
+    "message": "Connection to HTTP"
+  },
+  {
+    "timestamp": "2024-10-24T15:10:09",
+    "event_type": "connection",
+    "src_ip": "203.0.113.50",
+    "dst_ip": "10.0.0.10",
+    "protocol": "TCP",
+    "dst_port": 443,
+    "message": "Connection to HTTPS"
+  },
+  {
+    "timestamp": "2024-10-24T15:10:10",
+    "event_type": "connection",
+    "src_ip": "203.0.113.50",
+    "dst_ip": "10.0.0.10",
+    "protocol": "TCP",
+    "dst_port": 3306,
+    "message": "Connection to MySQL"
+  },
+  {
+    "timestamp": "2024-10-24T15:10:11",
+    "event_type": "connection",
+    "src_ip": "203.0.113.50",
+    "dst_ip": "10.0.0.10",
+    "protocol": "TCP",
+    "dst_port": 3389,
+    "message": "Connection to RDP"
+  },
+  {
+    "timestamp": "2024-10-24T15:10:12",
+    "event_type": "connection",
+    "src_ip": "203.0.113.50",
+    "dst_ip": "10.0.0.10",
+    "protocol": "TCP",
+    "dst_port": 5432,
+    "message": "Connection to PostgreSQL"
+  }
+]

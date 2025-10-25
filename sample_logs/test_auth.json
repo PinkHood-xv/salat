@@ -1,0 +1,151 @@
+[
+  {
+    "timestamp": "2024-10-24T14:23:15",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "dst_port": 22,
+    "protocol": "TCP",
+    "message": "Failed SSH login attempt for user admin",
+    "user": "admin"
+  },
+  {
+    "timestamp": "2024-10-24T14:23:20",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "dst_port": 22,
+    "protocol": "TCP",
+    "message": "Failed SSH login attempt for user root",
+    "user": "root"
+  },
+  {
+    "timestamp": "2024-10-24T14:23:25",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "dst_port": 22,
+    "protocol": "TCP",
+    "message": "Failed SSH login attempt for user admin",
+    "user": "admin"
+  },
+  {
+    "timestamp": "2024-10-24T14:23:30",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "dst_port": 22,
+    "protocol": "TCP",
+    "message": "Failed SSH login attempt for user admin",
+    "user": "admin"
+  },
+  {
+    "timestamp": "2024-10-24T14:23:35",
+    "event_type": "authentication_failure",
+    "src_ip": "192.168.1.100",
+    "dst_ip": "10.0.0.5",
+    "dst_port": 22,
+    "protocol": "TCP",
+    "message": "Failed SSH login attempt for user admin",
+    "user": "admin"
+  },
+  {
+    "timestamp": "2024-10-24T14:23:40",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 80,
+    "protocol": "TCP",
+    "message": "HTTP connection established"
+  },
+  {
+    "timestamp": "2024-10-24T14:23:45",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 443,
+    "protocol": "TCP",
+    "message": "HTTPS connection established"
+  },
+  {
+    "timestamp": "2024-10-24T14:23:50",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 21,
+    "protocol": "TCP",
+    "message": "FTP connection attempt"
+  },
+  {
+    "timestamp": "2024-10-24T14:23:55",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 23,
+    "protocol": "TCP",
+    "message": "Telnet connection attempt"
+  },
+  {
+    "timestamp": "2024-10-24T14:24:00",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 25,
+    "protocol": "TCP",
+    "message": "SMTP connection attempt"
+  },
+  {
+    "timestamp": "2024-10-24T14:24:05",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 53,
+    "protocol": "UDP",
+    "message": "DNS query"
+  },
+  {
+    "timestamp": "2024-10-24T14:24:10",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 110,
+    "protocol": "TCP",
+    "message": "POP3 connection attempt"
+  },
+  {
+    "timestamp": "2024-10-24T14:24:15",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 143,
+    "protocol": "TCP",
+    "message": "IMAP connection attempt"
+  },
+  {
+    "timestamp": "2024-10-24T14:24:20",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 993,
+    "protocol": "TCP",
+    "message": "IMAPS connection attempt"
+  },
+  {
+    "timestamp": "2024-10-24T14:24:25",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 995,
+    "protocol": "TCP",
+    "message": "POP3S connection attempt"
+  },
+  {
+    "timestamp": "2024-10-24T14:24:30",
+    "event_type": "connection",
+    "src_ip": "192.168.1.200",
+    "dst_ip": "10.0.0.10",
+    "dst_port": 3389,
+    "protocol": "TCP",
+    "message": "RDP connection attempt"
+  }
+]

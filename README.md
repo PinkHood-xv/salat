@@ -1,8 +1,8 @@
-# SALAT v2 - SOC Analyst Log Analysis Toolkit
+# SALAT - SOC Analyst Log Analysis Toolkit
 
 Professional command-line security log analysis and threat detection tool.
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Basic analysis
@@ -18,9 +18,9 @@ Professional command-line security log analysis and threat detection tool.
 ./salat -c -s 192.168.1.100 sample_logs/auth_sample.json
 ```
 
-## 📖 Overview
+## Overview
 
-SALAT v2 is a complete rewrite of the original SALAT toolkit, designed as a professional command-line tool following Unix conventions. It provides:
+SALAT is designed as a command-line tool following Unix conventions. It provides:
 
 - **Multi-format log parsing** (JSON, PCAP, EVTX, Syslog)
 - **Advanced filtering** by IP, time, protocol, ports
@@ -29,7 +29,7 @@ SALAT v2 is a complete rewrite of the original SALAT toolkit, designed as a prof
 - **Educational commands** showing manual analysis techniques
 - **Timeline visualization** for security events
 
-## 🎯 Key Features
+## Key Features
 
 ### Powerful Filtering (Like jq + tcpdump)
 SALAT reads and filters log files with syntax similar to popular tools:
@@ -63,7 +63,7 @@ See [FILTERING_GUIDE.md](FILTERING_GUIDE.md) for complete filtering documentatio
 - **HTML** - Interactive reports with visualization
 - **CSV** - Spreadsheet-compatible format
 
-## 📋 Installation
+## Installation
 
 ### Requirements
 - Python 3.7+
@@ -127,7 +127,7 @@ salat -s 192.168.1.100 --detect all -c auth.json
 
 See [COMMAND_REFERENCE.md](COMMAND_REFERENCE.md) for complete command documentation.
 
-**🔍 New to filtering?** Check out the [FILTERING_GUIDE.md](FILTERING_GUIDE.md) for comprehensive examples showing how SALAT filtering works like `jq` and `tcpdump`.
+** New to filtering?** Check out the [FILTERING_GUIDE.md](FILTERING_GUIDE.md) for comprehensive examples showing how SALAT filtering works like `jq` and `tcpdump`.
 
 ### Filtering Options
 
@@ -192,7 +192,7 @@ See [COMMAND_REFERENCE.md](COMMAND_REFERENCE.md) for complete command documentat
 # grep "192.168.1.100" logs.json | jq .
 ```
 
-## 📊 Examples
+## Examples
 
 ### Basic Log Analysis
 ```bash
@@ -240,9 +240,9 @@ See [COMMAND_REFERENCE.md](COMMAND_REFERENCE.md) for complete command documentat
 ./salat -D all -F json logs.json | jq .
 ```
 
-## 🎓 Educational Features
+## Educational Features
 
-SALAT v2 includes educational features to help SOC analysts learn manual analysis techniques:
+SALAT includes educational features to help SOC analysts learn manual analysis techniques:
 
 ### Manual Command Display
 Use `-c` or `--show-commands` to see equivalent manual commands:
@@ -262,7 +262,7 @@ Each detector shows the manual verification commands:
 - Brute force: jq commands to group and count failed attempts
 - Port scan: Commands to identify unique ports per source IP
 
-## 🔍 Detection Details
+## Detection Details
 
 ### Brute Force Detection
 - **Logic**: Multiple failed authentication attempts from same source IP
@@ -284,47 +284,8 @@ Both detectors support custom thresholds and time windows:
 ./salat -D port-scan -t 20 -w 30 logs.json
 ```
 
-## 📁 File Structure
 
-```
-salat_v2/
-├── salat                   # Main executable
-├── lib/                    # Core library
-│   ├── cli.py             # Command-line interface
-│   ├── parser.py          # File format detection
-│   ├── filters.py         # Event filtering
-│   ├── detectors.py       # Detection orchestration
-│   ├── formatters.py      # Output formatting
-│   └── utils.py           # Utilities and educational commands
-├── parsers/               # Format-specific parsers
-│   ├── json_parser.py     # JSON log parsing
-│   ├── pcap_parser.py     # PCAP analysis (tshark)
-│   ├── evtx_parser.py     # Windows Event Logs
-│   └── syslog_parser.py   # Syslog parsing
-├── detectors/             # Detection modules
-│   ├── base.py            # Base detector class
-│   ├── brute_force.py     # Brute force detection
-│   └── port_scan.py       # Port scan detection
-├── formatters/            # Output formatters
-│   ├── text.py            # Plain text output
-│   ├── json_formatter.py  # JSON output
-│   ├── html.py            # HTML reports
-│   ├── csv_formatter.py   # CSV export
-│   └── timeline.py        # Timeline visualization
-└── sample_logs/           # Sample data for testing
-```
-
-## 🚨 Error Handling
-
-SALAT v2 includes comprehensive error handling:
-
-- **File not found**: Clear error message with file path
-- **Invalid IP/CIDR**: IP address validation with helpful messages
-- **Missing dependencies**: Guidance for installing tshark, python-evtx
-- **Malformed logs**: Graceful handling with line number reporting
-- **Permission errors**: Clear file access error messages
-
-## 🔧 Development
+## Development
 
 ### Adding New Detectors
 1. Create detector class inheriting from `BaseDetector`
@@ -341,7 +302,7 @@ SALAT v2 includes comprehensive error handling:
 2. Implement `format_*()` function
 3. Add to format dispatcher in `lib/formatters.py`
 
-## 🎯 Roadmap
+## Roadmap
 
 Future enhancements planned:
 - Additional detection modules (SQL injection, XSS, data exfiltration)
@@ -350,7 +311,7 @@ Future enhancements planned:
 - Advanced statistical analysis
 - Machine learning-based anomaly detection
 
-## 📞 Support
+## Support
 
 For issues, questions, or contributions:
 - Review documentation in this README
@@ -358,10 +319,10 @@ For issues, questions, or contributions:
 - Use `./salat --help` for complete options
 - Test with provided sample logs
 
-## 📄 License
+## License
 
-SALAT v2 is designed for educational and professional SOC analysis purposes.
+SALAT is designed for educational and professional SOC analysis purposes.
 
 ---
 
-**SALAT v2** - Professional SOC Analysis Made Simple 🛡️# salat
+**SALAT** - Professional SOC Analysis Made Simple

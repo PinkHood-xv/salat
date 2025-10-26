@@ -1,4 +1,4 @@
-# SALAT v2 - Command Reference
+# SALAT - Command Reference
 
 Complete reference for all command-line options with their short and long forms.
 
@@ -337,4 +337,4 @@ salat --list-detectors # Show available detectors
 
 ---
 
-**SALAT v2** - Professional SOC Analysis Made Simple
+**SALAT** - Professional SOC Analysis Made Simple

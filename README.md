@@ -1,6 +1,6 @@
 # SALAT - SOC Analyst Log Analysis Toolkit
 
-Professional command-line security log analysis and threat detection tool.
+Students and learners command-line security log analysis and threat detection tool.
 
 ## Quick Start
 
@@ -82,7 +82,7 @@ chmod +x salat
 ./salat --help
 ```
 
-## 🔧 Usage
+## Usage
 
 ### Basic Syntax
 ```bash

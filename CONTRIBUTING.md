@@ -1,6 +1,6 @@
-# Contributing to SALAT v2
+# Contributing to SALAT
 
-Thank you for your interest in contributing to SALAT v2! This document provides guidelines for contributing to the project.
+Thank you for your interest in contributing to SALAT! This document provides guidelines for contributing to the project.
 
 ## Code of Conduct
 
@@ -210,4 +210,4 @@ By contributing, you agree that your contributions will be licensed under the MI
 
 ## Recognition
 
-Contributors will be recognized in the project documentation. Thank you for helping improve SALAT v2!
+Contributors will be recognized in the project documentation. Thank you for helping improve SALAT!

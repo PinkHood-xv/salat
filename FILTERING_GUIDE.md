@@ -1,4 +1,4 @@
-# SALAT v2 - Complete Filtering Guide
+# SALAT - Complete Filtering Guide
 
 This guide demonstrates SALAT's filtering capabilities, which work similarly to popular tools like `jq` (for JSON) and `tcpdump`/`tshark` (for network traffic).
 
